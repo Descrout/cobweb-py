@@ -1,7 +1,9 @@
 # Cobweb
-![logo](./logo.png)
-Inefficient but easy to understand neural network library.  
-Cobweb has been made from scratch and does not use any external library. (not even numpy 😱)
+
+
+| <img src="./logo.png" width="256" height="256">  | Inefficient but easy to understand neural network library. <br>Cobweb has been made from scratch and does not use any external library. <br>(not even numpy 😱) |
+| ------------- | ------------- |
+
 
 ### Create a neural network
 ```python
