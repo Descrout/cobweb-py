@@ -1,7 +1,7 @@
 # Cobweb
-
+![logo](./logo.png)
 Inefficient but easy to understand neural network library.  
-This library has been made from scratch and does not use any library. (not even numpy 😱)
+Cobweb has been made from scratch and does not use any external library. (not even numpy 😱)
 
 ### Create a neural network
 ```python
@@ -9,7 +9,7 @@ from cobweb import Cobweb
 # inputs, outputs
 nn = Cobweb(3, 4)
 nn.add_layer(8)
-nn.add_layer(16, activation="tanh") #default = sigmoid
+nn.add_layer(16, activation="tanh") #default = sigmoid 
 
 # Fully connected layers:
 # 3 -> 8 -> 16 -> 4
@@ -17,7 +17,7 @@ nn.add_layer(16, activation="tanh") #default = sigmoid
 
 ### Training (Backpropagation)
 ```python
-# input list, label list
+# inputs, label
 nn.train([0.6, 0.88, 0.36], [1, 0, 0, 0])
 ```
 
